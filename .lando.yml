@@ -1,0 +1,4 @@
+name: dizajni
+recipe: lamp
+config:
+  webroot: .
