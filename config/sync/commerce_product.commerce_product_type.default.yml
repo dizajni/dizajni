@@ -1,0 +1,14 @@
+uuid: 932fd4d8-1981-40b4-869d-2861a921ea41
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: igdv1CXBTq9vh-ONhQ2SFkVhr3bdfRC6nP1Uubdx-L0
+id: default
+label: Default
+traits: {  }
+locked: false
+description: ''
+variationType: default
+multipleVariations: true
+injectVariationFields: true

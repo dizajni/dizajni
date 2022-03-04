@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: nl
+uuid: d0581da9-0886-4b9c-94a7-f7bcdc346c4c
+name: Dizajni
+mail: simondespiegeleer@msn.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: nl

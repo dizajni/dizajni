@@ -1,0 +1,10 @@
+uuid: d7edf8ba-7120-4aef-99cb-15d5edd5e9ec
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yoNVreoTdTZTY7GuE8fI9Jmxqdz8vlo4ZJKixMNSosw
+name: Labels
+vid: tags
+description: 'Gebruik tags om artikelen over vergelijkbare onderwerpen in categorieën te groeperen.'
+weight: 0

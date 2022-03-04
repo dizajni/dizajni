@@ -1,0 +1,42 @@
+name: Dizajni
+type: theme
+description: This is a custom Dizajni sub theme of Bootstrap Barrio
+core_version_requirement: ^8 || ^9
+# Defines the base theme
+base theme: bootstrap_barrio
+# Defines libraries group in which we can add css/js.
+libraries:
+  - dizajni/global-styling
+
+#logo
+logo: images/logo/logo.png
+
+# Regions
+regions:
+  top_header: 'Top header'
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: "Highlighted"
+  breadcrumb: 'Breadcrumb'
+  content_top_first: 'Content top first'
+  content_top_second: 'Content top second'
+  content_top_third: 'Content top third'
+  title: 'Title'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  content_bottom_first: 'Content bottom first'
+  content_bottom_second: 'Content bottom second'
+  content_bottom_third: 'Content bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
+  copyright_first: 'Copyright first'
+  copyright_second: 'Copyright second'
+  disabled: 'Disabled'
+

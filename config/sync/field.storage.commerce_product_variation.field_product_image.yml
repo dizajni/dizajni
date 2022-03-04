@@ -1,0 +1,24 @@
+uuid: 0776ab1b-897d-4270-80ca-d880a18c1d6d
+langcode: nl
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - field_permissions
+    - media
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: commerce_product_variation.field_product_image
+field_name: field_product_image
+entity_type: commerce_product_variation
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,4 +1,4 @@
 name: dizajni
-recipe: lamp
+recipe: drupal9
 config:
-  webroot: .
+  webroot: web

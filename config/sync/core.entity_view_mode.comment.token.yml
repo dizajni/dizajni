@@ -1,0 +1,10 @@
+uuid: cfe13500-bf74-433a-aa40-a2535b3e9119
+langcode: nl
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.token
+label: Token
+targetEntityType: comment
+cache: true

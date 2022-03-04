@@ -1,0 +1,20 @@
+
+@mixin button {
+  background: $turquoise;
+  text-align: center;
+  padding: 10px 15px;
+  color: $white;
+  font-size: $size-sm2;
+  line-height: 100%;
+  font-weight: $semibold;
+  width: auto;
+  border: 0;
+
+  &:hover {
+    background: $greengrey;
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
+
+

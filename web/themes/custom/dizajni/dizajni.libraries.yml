@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    component:
+      css/dizajni.css: {}
+  js:
+    js/dizajni.js: {}
+#    /libraries/cookiesjsr/dist/cookiesjsr.min.js: {}
+#  dependencies:
+#    - cookies/cookiesjsr.conf

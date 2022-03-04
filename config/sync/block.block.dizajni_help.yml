@@ -1,0 +1,22 @@
+uuid: a478140a-2735-4c0b-9b37-e2ba996cafed
+langcode: nl
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - dizajni
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: dizajni_help
+theme: dizajni
+region: highlighted
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 2b76f8d2-87ba-43e2-a048-6e9bb970fab4
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dizajni
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: dizajni_breadcrumbs
+theme: dizajni
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Kruimelpad
+  label_display: '0'
+  provider: system
+visibility: {  }

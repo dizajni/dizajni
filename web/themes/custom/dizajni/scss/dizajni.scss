@@ -1,0 +1,21 @@
+// Import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Import reset weird barrio definitions
+@import "reset_barrio.scss";
+
+// Import global variables.
+@import "variables/*.scss";
+
+// Import global mixins
+@import "mixins/*.scss";
+
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+// ------------------------------------------------------ //
+// ** BELOW IS WHERE WE START IMPORTING OUR SASS FILES ** //
+// ------------------------------------------------------ //
+
+@import "components/*.scss";
+@import "components/**/*.scss";

@@ -1,0 +1,22 @@
+uuid: cebcf566-baff-4fad-bbe8-bea23447bf13
+langcode: nl
+status: true
+dependencies:
+  theme:
+    - dizajni
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: dizajni_local_tasks
+theme: dizajni
+region: highlighted
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabbladen
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

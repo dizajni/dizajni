@@ -1,0 +1,25 @@
+uuid: de8a8d5c-fa24-4d4f-b9e9-93cdcdc3d284
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dizajni
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: dizajni_branding
+theme: dizajni
+region: top_header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Branding van de website'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

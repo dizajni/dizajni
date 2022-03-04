@@ -1,0 +1,12 @@
+uuid: 78000c3b-e8d3-4e49-846a-eb8c8aad0f34
+langcode: nl
+status: false
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: K7eNlfU7NEUajz01wItywZklr2oaPgL6s1_97fmDXLA
+id: comment.full
+label: 'Volledige reactie'
+targetEntityType: comment
+cache: true

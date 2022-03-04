@@ -1,0 +1,22 @@
+uuid: e0a22c88-5872-48de-9d10-af656aa6f389
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dizajni
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: dizajni_content
+theme: dizajni
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Primaire inhoud van de pagina'
+  label_display: '0'
+  provider: system
+visibility: {  }
